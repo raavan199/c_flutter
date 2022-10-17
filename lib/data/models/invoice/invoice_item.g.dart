@@ -1,0 +1,83 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'invoice_item.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+InvoiceItem _$InvoiceItemFromJson(Map<String, dynamic> json) => InvoiceItem(
+      id: json['id'] as int?,
+      createdBy: json['createdBy'] as int?,
+      createdOn: json['createdOn'] as String?,
+      modifiedBy: json['modifiedBy'] as int?,
+      modifiedOn: json['modifiedOn'] as String?,
+      secondaryInvoiceId: json['secondaryInvoiceId'] as int?,
+      productId: json['productId'] as int?,
+      hsnCode: json['hsnCode'] as String?,
+      cgst: (json['cgst'] as num?)?.toDouble(),
+      sgst: (json['sgst'] as num?)?.toDouble(),
+      igst: (json['igst'] as num?)?.toDouble(),
+      billQuantity: json['billQuantity'] as int?,
+      schemeId: json['schemeId'] as int?,
+      weight: (json['weight'] as num?)?.toDouble(),
+      basePrice: (json['basePrice'] as num?)?.toDouble(),
+      discount: (json['discount'] as num?)?.toDouble(),
+      deliveryStatus: json['deliveryStatus'] as int?,
+      batchNumber: json['batchNumber'] as String?,
+      expiryDate: json['expiryDate'] as String?,
+      uoM: json['uoM'] as int?,
+      grnId: json['grnId'] as int?,
+      receivedId: json['receivedId'] as int?,
+      orderItemId: json['orderItemId'] as int?,
+      pickAndPackRegisterId: json['pickAndPackRegisterId'] as int?,
+      partnerId: json['partnerId'] as int?,
+      name: json['name'] as String?,
+      uom_name: json['uom_name'] as String?,
+      scheme_name: json['scheme_name'] as String?,
+      minTotalValue: (json['minTotalValue'] as num?)?.toDouble(),
+      maxTotalValue: (json['maxTotalValue'] as num?)?.toDouble(),
+      minOrderQnty: (json['minOrderQnty'] as num?)?.toDouble(),
+      maxOrderQnty: (json['maxOrderQnty'] as num?)?.toDouble(),
+      freeProductId: json['freeProductId'] as int?,
+      additionalDiscountPercent:
+          (json['additionalDiscountPercent'] as num?)?.toDouble(),
+    );
+
+Map<String, dynamic> _$InvoiceItemToJson(InvoiceItem instance) =>
+    <String, dynamic>{
+      'secondaryInvoiceId': instance.secondaryInvoiceId,
+      'productId': instance.productId,
+      'hsnCode': instance.hsnCode,
+      'cgst': instance.cgst,
+      'sgst': instance.sgst,
+      'igst': instance.igst,
+      'billQuantity': instance.billQuantity,
+      'schemeId': instance.schemeId,
+      'weight': instance.weight,
+      'basePrice': instance.basePrice,
+      'discount': instance.discount,
+      'deliveryStatus': instance.deliveryStatus,
+      'batchNumber': instance.batchNumber,
+      'expiryDate': instance.expiryDate,
+      'uoM': instance.uoM,
+      'grnId': instance.grnId,
+      'receivedId': instance.receivedId,
+      'orderItemId': instance.orderItemId,
+      'pickAndPackRegisterId': instance.pickAndPackRegisterId,
+      'name': instance.name,
+      'uom_name': instance.uom_name,
+      'scheme_name': instance.scheme_name,
+      'minTotalValue': instance.minTotalValue,
+      'maxTotalValue': instance.maxTotalValue,
+      'minOrderQnty': instance.minOrderQnty,
+      'maxOrderQnty': instance.maxOrderQnty,
+      'freeProductId': instance.freeProductId,
+      'additionalDiscountPercent': instance.additionalDiscountPercent,
+      'id': instance.id,
+      'createdBy': instance.createdBy,
+      'createdOn': instance.createdOn,
+      'modifiedBy': instance.modifiedBy,
+      'modifiedOn': instance.modifiedOn,
+      'partnerId': instance.partnerId,
+    };
